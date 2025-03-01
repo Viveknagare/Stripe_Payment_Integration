@@ -1,0 +1,15 @@
+# Ignore node_modules in both frontend and backend
+node_modules/
+Frontend/node_modules/
+Backend/node_modules/
+
+# Ignore environment variables
+.env
+Frontend/.env
+Backend/.env
+
+# Ignore other potential files
+.DS_Store  # macOS system file
+package-lock.json  # Optional, if you don’t want to track it
+yarn.lock  # If using Yarn
+npm-debug.log  # Debug logs
